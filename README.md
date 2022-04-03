@@ -9,18 +9,36 @@ Show the number of bike trips for all riders and genders for each hour of each d
 Show the number of bike trips for each type of user and gender for each day of the week.
 Finally, I need to add these new visualizations to the two I created in this module for your final presentation and analysis to pitch to investors.
 Explain the purpose of this analysis.
+### Resources:
+Data:[CitiBike_Data](https://ride.citibikenyc.com/system-data)
+Software: Tableau, Pandas
+
+
+
 ## Results: 
+
+
+Using two csv file [citibike_tripdata.csv] I have I have analyzed the NYC citibike trip data for August 2019 in Tableau and generated story for the analysis.
+
+
 [link to dashboard](https://public.tableau.com/app/profile/nishat.sultana7638/viz/NYCCitibikeanalysis_16488811692500/Story1)
 
-Male users take approximately 3 times more rides than the female users.
-Bikes are mostly checked out for 4 to 6 hours.
-Highest activity hours are from 5:00 PM to 7:00 PM and require the most resources mobilized.
-The activity from 2:00 AM to 5:00 AM is low so this would be the window for bike maintenance.
+Below are the images of data that were analyzed :
 
+![Checkout Times for users]()
+Bike trips are mostly shorter than one hour.
+![Checkout times for genders]()
+Male users take approximately 3 times more rides than the female users.
+![Trips by weekday each hour]()
+Highest activity hours are from 5:00 PM to 7:00 PM and require the most resources mobilized.
+![Trips by gender]()
+Those rides are mostly taken by male users.
+The activity from 2:00 AM to 5:00 AM is low so this would be the window for bike maintenance.
+![]()
 Most weekday rides are around 7:00 AM to 9 AM and 5:00 PM to 7:00 PM.
 Weekend rides are highest from 10:00 AM to 7:00 PM.
-Those rides are mostly taken by male users.
 
+![Gender breakdown]()
 65% of the users were confirmed males and 25% were confirmed females.
 ## Summary: 
 The data shows high activity of the bike sharing service in New York during the month of August 2019.
