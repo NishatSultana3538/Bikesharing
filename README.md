@@ -1,43 +1,47 @@
 # Bikesharing
+
 ## Overview of the analysis: 
 Des Moines requested data for a business proposal. August 2019 Citibike data from NYC was reviewed by looking at geographical data as well as data disaggregated by user types and genders to determine if it would be a good investment for Des Moines. Other data points include usage durations, peak usage times, and the key target market.
 
 There is still some more work to be done to convince investors that a bike-sharing program in Des Moines is a solid business proposal. To solidify the proposal, one of the key stakeholders would like to see a bike trip analysis.
 
-For this analysis, we will use Pandas to change the "tripduration" column from an integer to a datetime datatype. Then, using the converted datatype, you’ll create a set of visualizations to:
+For this analysis, I will use Pandas to change the "tripduration" column from an integer to a datetime datatype. Then, using the converted datatype, I will create a set of visualizations to:
 
-Show the length of time that bikes are checked out for all riders and genders
-Show the number of bike trips for all riders and genders for each hour of each day of the week
-Show the number of bike trips for each type of user and gender for each day of the week.
-Finally, I need to add these new visualizations to the two I created in this module for your final presentation and analysis to pitch to investors.
-Explain the purpose of this analysis.
-### Resources:
+* Show the length of time that bikes are checked out for all riders and genders.
+* Show the number of bike trips for all riders and genders for each hour of each day of the week.
+* Show the number of bike trips for each type of user and gender for each day of the week.
+Finally, I need to add these new visualizations to the two I created in this module to the final presentation and analysis to pitch to investors.
+
+## Resources:
 Data:[CitiBike_Data](https://ride.citibikenyc.com/system-data)
-Software: Tableau, Pandas
+
+Software: Tableau, Pandas.
 
 
 
 ## Results: 
 
-Cleaning the Data:
+### Cleaning the Data:
 Jupyter Notebook was used to change the trip duration data to a datetime field.
-![]()
+![data frame](https://github.com/NishatSultana3538/Bikesharing/blob/main/image/data%20frame.png)
+![data types](https://github.com/NishatSultana3538/Bikesharing/blob/main/image/datatypes.png)
 
-Using two csv file [citibike_tripdata.csv] I have I have analyzed the NYC citibike trip data for August 2019 in Tableau and generated story for the analysis.
+Using the exported csv file citibike_tripdata.csv, I have analyzed the NYC citibike trip data for August 2019 in Tableau and generated story for the analysis.
 
+Below is the link to Tableau public for my analysis:
 
-[link to dashboard](https://public.tableau.com/app/profile/nishat.sultana7638/viz/NYCCitibikeanalysis_16488811692500/Story1)
+[Link to dashboard](https://public.tableau.com/app/profile/nishat.sultana7638/viz/NYCCitibikeanalysis_16488811692500/Story1)
 
 Below are the images of data that were analyzed :
-### 1.Checkout Times for All Users:
+### 1. Checkout Times for All Users:
 ![Checkout Times for users](https://github.com/NishatSultana3538/Bikesharing/blob/main/image/Checkout%20times_users.png)
 Bike trips are mostly shorter than one hour.
 
-### 2.Checkout Times by Gender
+### 2. Checkout Times by Gender
 ![Checkout times for genders](https://github.com/NishatSultana3538/Bikesharing/blob/main/image/Checkout%20times_genders.png)
 Male users take approximately 3 times more rides than the female users.
 
-### 3.Trips (Weekday per Hour)
+### 3. Trips (Weekday per Hour)
 ![Trips by weekday each hour](https://github.com/NishatSultana3538/Bikesharing/blob/main/image/Trips%20by%20weekday:hour.png)
 Highest activity hours are from 5:00 PM to 7:00 PM and require the most resources mobilized.
 
