@@ -34,6 +34,7 @@ Below is the link to Tableau public for my analysis:
 
 Below are the images of data that were analyzed :
 ### 1. Checkout Times for All Users:
+[Checkout Times for users](https://public.tableau.com/views/NYCCitibikeanalysis_16488811692500/CheckoutTimesforUsers?:language=en-US&:display_count=n&:origin=viz_share_link)
 ![Checkout Times for users](https://github.com/NishatSultana3538/Bikesharing/blob/main/image/Checkout%20times_users.png)
 Bike trips are mostly shorter than one hour.
 
