@@ -39,15 +39,18 @@ Below are the images of data that were analyzed :
 Bike trips are mostly shorter than one hour.
 
 ### 2. Checkout Times by Gender
+
+[Checkout times for genders](https://public.tableau.com/views/NYCCitibikeanalysis_16488811692500/CheckoutTimesforGender?:language=en-US&:display_count=n&:origin=viz_share_link)
 ![Checkout times for genders](https://github.com/NishatSultana3538/Bikesharing/blob/main/image/Checkout%20times_genders.png)
 Male users take approximately 3 times more rides than the female users.
 
 ### 3. Trips (Weekday per Hour)
+[Trips by weekday each hour](https://public.tableau.com/views/NYCCitibikeanalysis_16488811692500/TripsbyWeekdayforEachHour?:language=en-US&:display_count=n&:origin=viz_share_link)
 ![Trips by weekday each hour](https://github.com/NishatSultana3538/Bikesharing/blob/main/image/Trips%20by%20weekday:hour.png)
 Highest activity hours are from 5:00 PM to 7:00 PM and require the most resources mobilized.
 
 ### 4. Trips by Gender (Weekday per Hour)
-
+[Trips by gender](https://public.tableau.com/views/NYCCitibikeanalysis_16488811692500/TripsbyGenderWeekdayperHour?:language=en-US&:display_count=n&:origin=viz_share_link)
 ![Trips by gender](https://github.com/NishatSultana3538/Bikesharing/blob/main/image/Trips%20by%20gender.png)
 
 Males are high users during the peak hours.
@@ -55,6 +58,7 @@ Males are high users during the peak hours.
 Those rides are mostly taken by male users.
 
 ### 5. Trips by Gender and User Type (Weekday per Hour)
+[Trips by Gender and User Type](https://public.tableau.com/views/NYCCitibikeanalysis_16488811692500/UserTripsbyGenderbyWeekday?:language=en-US&:display_count=n&:origin=viz_share_link)
 ![Trips by Gender and User Type](https://github.com/NishatSultana3538/Bikesharing/blob/main/image/user%20trips%20by%20gender%20by%20weekday.png)
 
 ### 6. Number of Rides per Hour
