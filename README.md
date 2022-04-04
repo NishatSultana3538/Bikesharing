@@ -29,8 +29,10 @@ Jupyter Notebook was used to change the trip duration data to a datetime field.
 ![data frame](https://github.com/NishatSultana3538/Bikesharing/blob/main/image/data%20frame.png)
 ![data types](https://github.com/NishatSultana3538/Bikesharing/blob/main/image/datatypes.png)
 
+### Analysis:
 Using the exported csv file citibike_tripdata.csv, I have analyzed the NYC citibike trip data for August 2019 in Tableau and generated story for the analysis.
 
+### Dashboard:
 Below is the link to Tableau public for my analysis:
 
 [Link to dashboard](https://public.tableau.com/views/NYCCitibikeanalysis_16488811692500/CitibikeAnalysisStory?:language=en-US&:display_count=n&:origin=viz_share_link)
@@ -50,48 +52,44 @@ Male users take approximately 3 times more rides than the female users.
 ### 3. Trips (Weekday per Hour)
 [Trips by weekday each hour](https://public.tableau.com/views/NYCCitibikeanalysis_16488811692500/TripsbyWeekdayforEachHour?:language=en-US&:display_count=n&:origin=viz_share_link)
 ![Trips by weekday each hour](https://github.com/NishatSultana3538/Bikesharing/blob/main/image/Trips%20by%20weekday:hour.png)
-Highest activity hours are from 5:00 PM to 7:00 PM and require the most resources mobilized.
+
+Most weekday rides are around 7:00 AM to 9 AM and 5:00 PM to 7:00 PM.
+Weekend rides are highest from 10:00 AM to 7:00 PM.
 
 ### 4. Trips by Gender (Weekday per Hour)
 [Trips by gender](https://public.tableau.com/views/NYCCitibikeanalysis_16488811692500/TripsbyGenderWeekdayperHour?:language=en-US&:display_count=n&:origin=viz_share_link)
 ![Trips by gender](https://github.com/NishatSultana3538/Bikesharing/blob/main/image/Trips%20by%20gender.png)
 
-Males are high users during the peak hours.
+Males are high users during the peak hours and follow the traditional high use times of travel to and from work.
 
-Those rides are mostly taken by male users.
 
 ### 5. Trips by Gender and User Type (Weekday per Hour)
 [Trips by Gender and User Type](https://public.tableau.com/views/NYCCitibikeanalysis_16488811692500/UserTripsbyGenderbyWeekday?:language=en-US&:display_count=n&:origin=viz_share_link)
 ![Trips by Gender and User Type](https://github.com/NishatSultana3538/Bikesharing/blob/main/image/user%20trips%20by%20gender%20by%20weekday.png)
 
+Male subscribers are the highest users.
+
 ### 6. Number of Rides per Hour
-Non-peak hours are 1-5 am.
 ![August peak hour](https://github.com/NishatSultana3538/Bikesharing/blob/main/image/August%20peak%20hours.png)
+
+The activity from 2:00 AM to 5:00 AM is low so this would be the window for bike maintenance.
 
 ### Gender breakdown of users
 ![Gender breakdown](https://github.com/NishatSultana3538/Bikesharing/blob/main/image/Gender%20Breakdown.png)
 
-Males subscribers are the highest users followed by female subscribers.
-The activity from 2:00 AM to 5:00 AM is low so this would be the window for bike maintenance.
-![]()
-Most weekday rides are around 7:00 AM to 9 AM and 5:00 PM to 7:00 PM.
-Weekend rides are highest from 10:00 AM to 7:00 PM.
+Around 65% of the users were confirmed males and 25% were confirmed females.
 
-![Gender breakdown]()
-65% of the users were confirmed males and 25% were confirmed females.
 ## Summary: 
 
-Bike Repairs for 1/3 of the Citibikes need to be done during non-peak hours around 1-5 am.
-Male subscribers are the highest users and follow the traditional high use times of travel to and from work.
-Target market should be males needing transportation to work and weekend activities and push for subscribing to the services.
 
+Male subscribers are the highest users and follow the traditional high use times of travel to and from work. Target market should be males needing transportation to work and weekend activities and push for subscribing to the services. Bike Repairs  need to be done during non-peak hours around 1-5 am.
 
-The data shows high activity of the bike sharing service in New York during the month of August 2019.
-The far majority of the rides were in the very busy Manhattan Island, taken by male users during morning and evening rush hours. This implies that Citi Bike services are used as an alternative to public transportation by commuting workers.
+The data shows high activity of the bike sharing service in New York during the month of August 2019. The far majority of the rides were in the very busy Manhattan Island, taken by male users during morning and evening rush hours. This implies that Citi Bike services are used as an alternative to public transportation by commuting workers.
 
 
 ## Additional Analysis:
 Additional analysis would be beneficial by :
 
-comparing data for different months to determine trends across the year,
-including weather data to find the correlation between the weather and the rides.
+* Comparing data for different months to determine trends across the year.
+
+* Using weather data to find the correlation between the weather and the rides.
