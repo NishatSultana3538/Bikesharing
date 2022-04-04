@@ -1,8 +1,11 @@
 # Bikesharing
 
 ## Overview of the analysis: 
+
+### Purpose: 
 Des Moines requested data for a business proposal. August 2019 Citibike data from NYC was reviewed by looking at geographical data as well as data disaggregated by user types and genders to determine if it would be a good investment for Des Moines. Other data points include usage durations, peak usage times, and the key target market.
 
+### Overview:
 There is still some more work to be done to convince investors that a bike-sharing program in Des Moines is a solid business proposal. To solidify the proposal, one of the key stakeholders would like to see a bike trip analysis.
 
 For this analysis, I will use Pandas to change the "tripduration" column from an integer to a datetime datatype. Then, using the converted datatype, I will create a set of visualizations to:
@@ -30,7 +33,7 @@ Using the exported csv file citibike_tripdata.csv, I have analyzed the NYC citib
 
 Below is the link to Tableau public for my analysis:
 
-[Link to dashboard](https://public.tableau.com/app/profile/nishat.sultana7638/viz/NYCCitibikeanalysis_16488811692500/Story1)
+[Link to dashboard](https://public.tableau.com/views/NYCCitibikeanalysis_16488811692500/CitibikeAnalysisStory?:language=en-US&:display_count=n&:origin=viz_share_link)
 
 Below are the images of data that were analyzed :
 ### 1. Checkout Times for All Users:
